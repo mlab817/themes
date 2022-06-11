@@ -1,0 +1,29 @@
+{
+  "name": "themes",
+  "version": "1.0.0",
+  "description": "A reusable themes for my projects",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel ./src -d ./lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlab817/themes.git"
+  },
+  "keywords": [
+    "themes",
+    "npm",
+    "js"
+  ],
+  "author": "mlab817@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mlab817/themes/issues"
+  },
+  "homepage": "https://github.com/mlab817/themes#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
